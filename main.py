@@ -5,9 +5,9 @@ starSign = input("Ok, what is your star sign? ")
 day = input("And what day is it where you are today? ")
 print("")
 if (starSign == "Aries" or starSign == "aries") and (day == "Monday" or day == "monday"):
-		print("Oh no, a Monday!", "Well,", name, "the, main thing is your wicked sense of humur can get your through this am I right? I know I am right!")
+		print("Oh no, a Monday!", "Well,", name, "the main thing is your wicked sense of humour can get your through this, am I right? I know I am right!")
 elif (starSign == "Aries" or starSign == "aries") and (day == "Tuesday" or day == "tuesday"):
-	print("Forever Tuesday, am I right? Keep up your sense of humor,", name ,"and you will be just fine!")
+	print("Forever Tuesday, am I right? Keep up your sense of humour,", name ,"and you will be just fine!")
 elif (starSign == "Aries" or starSign == "aries") and (day != "Monday" or "monday" or "Tuesday" or "tuesday"):
 	print("Oh no, it's a", day)
 	
